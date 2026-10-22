@@ -1,0 +1,19 @@
+Algoritmo Calculo_energía()
+//Declaraciones
+  Definir potencia, tarifa como reales
+  Definir horas_diarias como entero
+
+//Cuerpo
+  Escribir "Ingrese la potencia:"
+  Leer potencia
+  Escribir "Ingrese la tarifa:"
+  Leer tarifa
+  Escribir "Ingrese las horas diarias:"
+  Leer horas_diarias
+
+  Consumo mensual <- (potencia / 1000) * horas_diarias * 30
+  Costo total <- Consumo mensual * tarifa 
+
+  Escribir "El consumo mensual es:", Consumo mensual
+  Escribir "El costo total es:", Costo total
+FinAlgoritmo
