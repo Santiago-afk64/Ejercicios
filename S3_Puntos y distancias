@@ -1,3 +1,20 @@
 Algoritmo Punto y distancias()
 //Declaraciones
-  Definir x1, y1, x2, y2, punto medio, coordenadas_punto media como reales
+  Definir x1, y1, x2, y2, Distancia, Coordenadas_punto medio como reales
+
+//Cuerpo
+  Escribir "Ingrese valor x1:"
+  Leer x1
+  Escribir "Ingrese valor y1"
+  Leer y1
+  Escribir "Ingrese valor x2"
+  Leer x2
+  Escribir "Ingrese valor y2"
+  Leer y2
+
+  Distancia <- ((x2 - x1)^2 + (y2 - y1)^2)^1/2
+  Coordenadas_punto medio <- ((x1 + x2) / 2, (y1 + y2) / 2)
+
+  Escribir "La distancia de los dos puntos son:", Distancia
+  Escribir "Las coordenadas del punto medio es:", Coordenadas_punto medio
+FinAlgoritmo
