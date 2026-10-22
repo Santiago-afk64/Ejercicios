@@ -1,0 +1,20 @@
+Algoritmo Amortización()
+//Declaraciones
+  Definir monto_prestamos, tasa_mensual, Interes_total, Cuota_mensual como reales
+  Definir n_meses como entero
+
+//Cuerpo
+  Escribir "Ingrese el monto de prestamos:"
+  Leer monto_prestamos
+  Escribir "Ingrese la tasa mensual:"
+  Leer tasa_mensual
+  Esciribir "Ingrese el numero de meses:"
+  Leer n_meses 
+
+  Interes_total <- monto_prestamos * tasa_mensual * n_meses
+  Cuota <- monto_prestamos + Interes_total / n_meses
+
+  Escribir "El interes total es:", Interes_total
+  Escribir "La cuota a pagar es:", Cuota
+FinAlgoritmo
+  
