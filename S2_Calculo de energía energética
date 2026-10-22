@@ -1,6 +1,6 @@
 Algoritmo Calculo_energía()
 //Declaraciones
-  Definir potencia, tarifa como reales
+  Definir potencia, tarifa, Consumo mensual, Costo total como reales
   Definir horas_diarias como entero
 
 //Cuerpo
